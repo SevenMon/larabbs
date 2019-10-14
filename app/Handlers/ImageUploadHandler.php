@@ -7,7 +7,7 @@ use Image;
 class ImageUploadHandler
 {
     //
-    protected $allowed_ext = ["png","jpg","gif","jpeg"];
+    protected $allowed_ext = ["png","jpg","gif","jpeg","jpg"];
 
     public function save($file,$folder,$file_prefix,$max_width = false){
         $folder_name = "upload/images/$folder/".date("Ym/d",time());
