@@ -6,5 +6,5 @@
  * Time: 15:13
  */
 return [
-    'default_head_img' => 'upload/images/common/default_head.jpeg'
+    'default_head_img' => '/upload/images/common/default_head.jpeg'
 ];
